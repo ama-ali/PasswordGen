@@ -27,6 +27,21 @@ if (
   return "";
 }
 
+var includeNumbers = confirm ("Would you like to Include Numbers in your password?")
+console.log("Include numbers:", includeNumbers);
+
+var includeLowercase = confirm ("Would you like to include lowercase letters?")
+console.log("Include lowercase letters:", includeLowercase);
+
+var includeUppercase = confirm ("would you like to include uppercase letters?")
+console.log("Include Uppercase letters:", includeUppercase);
+
+var includeSpecialCharacters = confirm ("would you like to include special characters?")
+console.log("include specialCharacters:", includeSpecialCharacters);
+
+
+
+
 
 // Write password to the #password input
 function writePassword() {
